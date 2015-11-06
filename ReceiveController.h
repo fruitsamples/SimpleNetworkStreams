@@ -53,7 +53,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ReceiveController : UIViewController
+@interface ReceiveController : UIViewController <NSStreamDelegate>
 {
     UIImageView *               _imageView;
     UILabel *                   _statusLabel;

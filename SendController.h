@@ -57,7 +57,7 @@ enum {
     kSendBufferSize = 32768
 };
 
-@interface SendController : UIViewController
+@interface SendController : UIViewController <NSStreamDelegate>
 {
     UILabel *                   _statusLabel;
     UIActivityIndicatorView *   _activityIndicator;

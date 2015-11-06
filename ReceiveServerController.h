@@ -53,7 +53,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ReceiveServerController : UIViewController
+@interface ReceiveServerController : UIViewController <NSStreamDelegate, NSNetServiceDelegate>
 {
     UIImageView *               _imageView;
     UILabel *                   _statusLabel;
